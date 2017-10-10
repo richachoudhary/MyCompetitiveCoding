@@ -789,5 +789,6 @@
 -[x] [Swap linked list nodes in pairs] (http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
 -[x][Remove Duplicates from sorted list] (http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
 
-**Stacks and queues**
--[x][]()
+**Trees**
+-[x][Leveloredertraversal using vector and queue c++ stl](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)
+-[x][levelordertraversallinebyline](http://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1)
