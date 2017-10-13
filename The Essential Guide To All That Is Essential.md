@@ -1,11 +1,21 @@
 # Topics and Resources #
 
-#### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
+
+#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+```diff
++ green?
+-red?
+
+```
+* ###  [Super Collection of interview questions](http://tristan-interview.blogspot.in/2012/02/enumerate-all-possible-binary-trees.html)
+
 
 ### Cheat Sheets
-  * [BigO cheat sheet](http://bigocheatsheet.com/) | [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
+  * [BigO cheat sheet](http://bigocheatsheet.com/)
+  * [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
+     * ceil(x) //if x=6.79; cout=7
 
-
+#### [getting better at given language](http://exercism.io/languages)
 # Data Structures #
 
 * **Arrays**
@@ -60,6 +70,7 @@
   - [Remove duplicate elements from sorted array](http://www.geeksforgeeks.org/remove-duplicates-sorted-array/) : 2 pointer
   - [2sum](http://www.geeksforgeeks.org/count-pairs-with-given-sum/)
   - [3Sum](http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/)
+  - [4sum](https://leetcode.com/problems/4sum/description/) : [soln](http://www.geeksforgeeks.org/find-four-elements-that-sum-to-a-given-value-set-2/)
   - [Power Set](http://www.geeksforgeeks.org/power-set/)
   - [Merge 2 sorted arrays](http://www.geeksforgeeks.org/merge-two-sorted-arrays/)
   - [Maximum sum such that no two elements are adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
@@ -71,10 +82,14 @@
   - [Find the rotation point in a rotated sorted array](http://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
   - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
   - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
-
+  - [x]  To print nth row of Pascal's triangle [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/kth%20line%20in%20pascals%20triangle.jpg)
+  - [x]  Find ele that appear more than n/k times: [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/count%20element%20occurance.jpg)
+  - [x] [Print the array in wave form](https://www.interviewbit.com/problems/wave-array/) :you can deduce the first method; look up here for second
+  - [Find three closest elements from given three sorted arrays](http://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/)
+  - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 * **Linked List**
   
-
+  * [link list essential code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/linklistessential.cpp)
   #### [Intro video](https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr) ####
   * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
   * [Creation and Traversal](http://www.geeksforgeeks.org/linked-list-set-1-introduction/) | [Insertion](http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/) | [Deletion](http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
@@ -108,7 +123,7 @@
   - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
   - [Segregate even and odd nodes](http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/)
 
-  -
+
 
 
 
@@ -119,18 +134,14 @@
       - s.top()
       - s.isEmpty(): Returns true if stack is empty, else false
 
-* **[Queues]**
+* **Queues**
    * Implementation:
         * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
-                  * enqueue(value) - adds item at end of available storage
-                  * dequeue() - returns value and removes least recently added element
-                  * empty()
-                  * full()
+            : [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/array%20implementation%20of%20queue%20C%2B%2B.cpp)
         * [link list implementation](http://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/)
-                  * enqueue(value) - adds value at position at tail
-                  * dequeue() - returns value and removes least recently added element (front)
-                  * empty()
+            : [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/link%20list%20implementation%20of%20queue.cpp)
         * [stacks implementation](http://www.geeksforgeeks.org/?p=5009)
+            : [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/stack%20implementation%20of%20queues.cpp)
    * [Priority_queues](http://www.geeksforgeeks.org/priority-queue-set-1-introduction/) - are implemented using heaps
         ```cpp
         priority_queue<pair<int, string>>pooh;
@@ -151,6 +162,8 @@
           - [ ] Largest Area under histogram:
                 1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
                 2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
+          - [Sliding Window Maximum (Maximum of all subarrays of size k)](http://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/)
+          - [N Queens](http://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
 
 
 * **Hash Table**
@@ -164,6 +177,7 @@
      - [Find Recurring Sequence in a Fraction](http://www.geeksforgeeks.org/find-recurring-sequence-fraction/)
      - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
      - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
+     - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
 
 * **Trees**
  * Search:
@@ -204,9 +218,195 @@
  * [Print all nodes at distance k from a given node](http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
  * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
  * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
+ - [ ] [Invert a binary tree](http://www.geeksforgeeks.org/flip-binary-tree/)
  * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
+    * [trie- a neglected DS](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    * [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    forget not the problems at bottom
+    * [Sedgewick video lecture](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
+
+* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what no
+  * Graph representation:
+    1. Objects and Pointers
+    2. Adjacency matrix
+    3. Adjacency list
+    4. Edge List
+  * [for simplified understanding-no code](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs)
+  2.Adjacency matrix
+
+  ```cpp
+      int AdjMat[100][100];
+
+      // Adj Matrix
+      //   for each line: |V| entries, 0 or the weight
+      /*
+      0  10   0   0 100   0
+     10   0   7   0   8   0
+      0   7   0   9   0   0
+      0   0   9   0  20   5
+    100   8   0  20   0   0
+      0   0   0   5   0   0
+      */
+      Inputting: like 2-D matrix
+      for (int i = 0; i < V; i++)
+        for (int j = 0; j < V; j++)
+          scanf("%d", &AdjMat[i][j]);
+
+      Outputting:
+      printf("Neighbors of vertex 0:\n");
+      for (int j = 0; j < V; j++)                                    
+        if (AdjMat[0][j])
+          printf("Edge 0-%d (weight = %d)\n", j, AdjMat[0][j]);
+  ```
+  3. Adjacency List: vector of vector of pairs or array of linked list
+  ```cpp
+  typedef pair<int, int> ii;
+  typedef vector<ii> vii;
+  vector<vii> AdjList;
+  /*
+  2 2 10 5 100
+  3 1 10 3 7 5 8
+  2 2 7 4 9
+  3 3 9 5 20 6 5
+  3 1 100 2 8 4 20
+  1 4 5
+  */
+  scanf("%d", &V);
+  AdjList.assign(V, vii()); // quick way to initialize AdjList with V entries of vii
+  for (int i = 0; i < V; i++) {
+    scanf("%d", &total_neighbors);
+    for (int j = 0; j < total_neighbors; j++) {
+      scanf("%d %d", &id, &weight);
+      AdjList[i].push_back(ii(id - 1, weight));    // some index adjustment
+    }
+  }
+
+  printf("Neighbors of vertex 0:\n");
+  for (vii::iterator j = AdjList[0].begin(); j != AdjList[0].end(); j++)
+    // AdjList[0] contains the required information
+    // O(k), where k is the number of neighbors
+    printf("Edge 0-%d (weight = %d)\n", j->first, j->second);
+
+  ```
+  3.Edge List
+  ```cpp
+  priority_queue< pair<int, ii> > EdgeList;   // one way to store Edge List
+  scanf("%d", &E);
+  for (int i = 0; i < E; i++) {
+    scanf("%d %d %d", &a, &b, &weight);
+    EdgeList.push(make_pair(-weight, ii(a, b))); // trick to reverse sort order
+  }
+
+  // edges sorted by weight (smallest->largest)
+  for (int i = 0; i < E; i++) {
+    pair<int, ii> edge = EdgeList.top(); EdgeList.pop();
+    // negate the weight again
+    printf("weight: %d (%d-%d)\n", -edge.first, edge.second.first, edge.second.second);
+  }
+
+
+
+
+  * 2.Adjacency matrix
+
+    ```cpp
+    int AdjMat[100][100];
+
+
+    /*
+    0  10   0   0 100   0
+   10   0   7   0   8   0
+    0   7   0   9   0   0
+    0   0   9   0  20   5
+  100   8   0  20   0   0
+    0   0   0   5   0   0
+    */
+    Inputting: like 2-D matrix
+    for (int i = 0; i < V; i++)
+      for (int j = 0; j < V; j++)
+        scanf("%d", &AdjMat[i][j]);
+
+    Outputting:
+    printf("Neighbors of vertex 0:\n");
+    for (int j = 0; j < V; j++)                                    
+      if (AdjMat[0][j])
+        printf("Edge 0-%d (weight = %d)\n", j, AdjMat[0][j]);
+    ```
+  *  3. Adjacency List
+  ```cpp
+  typedef pair<int, int> ii;
+  typedef vector<ii> vii;
+  vector<vii> AdjList;
+  /*
+  2 2 10 5 100
+  3 1 10 3 7 5 8
+  2 2 7 4 9
+  3 3 9 5 20 6 5
+  3 1 100 2 8 4 20
+  1 4 5
+  */
+  scanf("%d", &V);
+  AdjList.assign(V, vii()); // quick way to initialize AdjList with V entries of vii
+  for (int i = 0; i < V; i++) {
+    scanf("%d", &total_neighbors);
+    for (int j = 0; j < total_neighbors; j++) {
+      scanf("%d %d", &id, &weight);
+      AdjList[i].push_back(ii(id - 1, weight));    // some index adjustment
+    }
+  }
+
+  printf("Neighbors of vertex 0:\n");
+  for (vii::iterator j = AdjList[0].begin(); j != AdjList[0].end(); j++)
+    // AdjList[0] contains the required information
+    // O(k), where k is the number of neighbors
+    printf("Edge 0-%d (weight = %d)\n", j->first, j->second);
+
+  ```
+  * 4.Edge List
+  ```cpp
+  priority_queue< pair<int, ii> > EdgeList;   // one way to store Edge List
+  scanf("%d", &E);
+  for (int i = 0; i < E; i++) {
+    scanf("%d %d %d", &a, &b, &weight);
+    EdgeList.push(make_pair(-weight, ii(a, b))); // trick to reverse sort order
+  }
+
+  // edges sorted by weight (smallest->largest)
+  for (int i = 0; i < E; i++) {
+    pair<int, ii> edge = EdgeList.top(); EdgeList.pop();
+    // negate the weight again
+    printf("weight: %d (%d-%d)\n", -edge.first, edge.second.first, edge.second.second);
+  }
+  
+  vedio link:https://www.youtube.com/watch?v=5pNIul92cj0&list=PLTZbNwgO5eboNKSj5qUbXnmuGQb86PuQf&t=2
+
+  ```
+
+  * When asked a question, look for a graph-based solution first, then move on if none.
+  * [BFS in graph](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+  * [DFS in graph](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+  * Graph Algorithms:
+    * [Sorting](https://www.youtube.com/watch?v=ddTC4Zovtbc&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * Single source shortest path:
+        1.[Dijkstra's algo](https://www.youtube.com/watch?v=lAXZGERcDf4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=2)
+        2. [Bellman-Ford](https://www.youtube.com/watch?v=-mOEd_3gTK0&index=6&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * All pair shortest path [Floyd Warshell](https://www.youtube.com/watch?v=LwJdNfdLF9s&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=8)
+    * MSP:
+        1.[Kruskal's algo](https://www.youtube.com/watch?v=fAuF0EuZVCk&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=3)
+        2. [Prim's algo](https://www.youtube.com/watch?v=oP2-8ysT3QQ&index=4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * [Travelling salesman](https://www.youtube.com/watch?v=-JjA4BLQyqE&index=5&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * Strongly connected components: [Kosaraju's algo](https://www.youtube.com/watch?v=RpgcYiky7uw&index=9&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * Max Flow [Ford Fulkerson/Edmonds Karp](https://www.youtube.com/watch?v=GiN3jRdgxU4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=10)
+    * Detecting cycles:
+          * [in unidirected graphs ](https://www.youtube.com/watch?v=n_t0a_8H8VY&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=11)
+          *  [in directed gaphs](https://www.youtube.com/watch?v=rKQaZuoUR4M&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=12)
+          * all simple cycles in directed graphs: [Johnson's algo](https://www.youtube.com/watch?v=johyrWospv0&index=14&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * [Articulation points algo](https://www.youtube.com/watch?v=2kREIkF9UAs&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=13)
+
+    * [count connected components in unidirected graphs](http://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)
+    * [check for bipartite graph](http://www.geeksforgeeks.org/bipartite-graph/)
 
 
 
@@ -218,10 +418,32 @@
   * problems:
       - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
       - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-      - [ ]
+      - [ ] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
+      ```cpp
+      int NoPowMod( int x, int y, int z )
+      {
+      	int a = x % z;
+      	int t = 1;
+      	while( y > 0 )
+      	{
+      		// Y is odd
+      		if( y & 1 )
+      		{
+      			t = (t * a) % z;
+      		}
+      		y >>= 1;
+      		a = (a * a) % z;
+      	}
+      	return(t);
+      }
+      ```
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
+  * counting number of set bits in a number: ``` cout<< __builtin_popcount (4);//1```
+      1.__builtin_popcount = int
+      2.__builtin_popcountl = long int
+      3.__builtin_popcountll = long long
   * [video] to understand &, |, ^, ~, >>, << {(1 << n = 2^n), (1 >> n = 2^-n)}
       * set a given bit to 1:( *it's like multiplying with 2^position* )
         ```cpp
@@ -335,25 +557,45 @@
       m = n & (d - 1);
       ```
       * find log base 2 of given interger ``` int resulg t=0; while(x >>= 1){result++;} ```
-
+      * [-] [Add one to a number](http://www.geeksforgeeks.org/add-1-to-a-given-number/) : [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/merge%20element.jpg)
 
 
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
   * [bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operation)
   * Problems:
+      - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
+      - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
+      - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
+      - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
+      - [Single Number 1](https://leetcode.com/problems/single-number/description/)
+      - [single Number 2](https://leetcode.com/problems/single-number-ii/description/)
       - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
       - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
       - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
       - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
       - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
       - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
-      - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
-      - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
-      - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
-      - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
+      - [ ] [Find the Maximum of Two Integers without Comparison](http://tristan-interview.blogspot.in/2012/04/find-maximum-of-two-integers-without.html)  Logic: if(a-b >=0, max(a,b)=a;else max(a,b) = a-(a-b)
 
 * ## Sorting
-  tobedonefromhere
+  - [CS50 : ](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
+  - [Visual Representation](https://visualgo.net/bn/sorting?slide=7) : pure gold
+  - Sorting algo:
+        - [Bubble sort](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm)
+        - [Insertion](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm)
+        - [Selection](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
+        - [Merge](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)
+        - [Quick](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm)
+        - [Heap](http://www.geeksforgeeks.org/heap-sort/)
+        - [Radix](http://www.geeksforgeeks.org/radix-sort/)
+  - [Merged Sort For Linked list](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+
+
+
+
+
+  * FUN- visual representation of 15 [sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
 * ## Computational Geometry
 
 
@@ -476,11 +718,13 @@
   * Print all permutations of a string
      1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
-
+     3.[see this](https://github.com/neel123456/SolutionToDiscoAssign1/blob/master/Q18.cpp)
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
   * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
   * [Minimum number of deletions to make a string palindrome](http://www.geeksforgeeks.org/minimum-number-deletions-make-string-palindrome/)
+  * [Multiply strings](https://leetcode.com/problems/multiply-strings/description/)
+  * [Text Justification](https://leetcode.com/problems/text-justification/description/)
 * ## Greedy
   - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0)
@@ -508,3 +752,81 @@
 
 
 *
+* ## Other Topics
+  * NP complete
+    * [halting problem](https://www.youtube.com/watch?v=2PaOjhnyQ9o)
+    * [Turing Machine](https://www.youtube.com/watch?v=ezf-f2-TO08)
+    * P, NP complete, NP hard:
+        * [stacksoverflow](https://stackoverflow.com/questions/6916162/what-are-np-and-np-complete-problems)
+        * [GfG](http://www.geeksforgeeks.org/np-completeness-set-1/)
+        * [Quora](https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard)
+    * [Near optimal solution for tavelling salesman problem](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+
+
+### Puzzles:  | [technical interview puzzles set](https://www.techinterview.org/) | [GfG puzzles set](http://www.geeksforgeeks.org/puzzles/) : must do
+ - [x] [Daughters age](https://www.techinterview.org/post/526335645/daughters-ages/)
+ - [x] [cross the bridge](http://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/)
+ - [x] [Divide the cake](https://puzzlersworld.com/logical-puzzles/rectangular-cake-puzzle/)
+ - [x] [2 Eggs and 100 Floors](http://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/)
+ - [ ] [Ratio of Boys and Girls in a Country where people want only boys](http://www.geeksforgeeks.org/puzzle-17-ratio-of-boys-and-girls-in-a-country-where-people-want-only-boys/)
+
+## Richa's Work[InterviewBit Microsoft questions]##
+**Math**
+  - [x] [Nth Fibonaccii no.s] (http://practice.geeksforgeeks.org/problems/nth-fibonacci-number/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4016123&pid=294&user=RC0709)
+  - [x] [Find the median](http://practice.geeksforgeeks.org/problems/find-the-median/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3918466&pid=1175&user=RC0709)- [my diff soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931848&pid=1175&user=RC0709)
+  - [x] [Count the squares](http://practice.geeksforgeeks.org/problems/count-squares/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3919408&pid=1427&user=RC0709)
+  - [x] [Trailing zeros in Factorial](http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931576&pid=187&user=RC0709)
+  
+**Sorting**
+  - [x] [k largest elements](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4160859&pid=601&user=RC0709)
+  
+**Binary Search**
+  - [x] [Rotated Sorted Array SearchBookmark Suggest Edit](http://practice.geeksforgeeks.org/problems/finding-number/0)
+  - [x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
+  - [x] [Find the Median](http://practice.geeksforgeeks.org/problems/find-the-median/0)
+
+**Arrays**
+  - [x] [Majority elements](http://practice.geeksforgeeks.org/problems/majority-element/0)- [x](http://practice.geeksforgeeks.org/viewSol.php?subId=4166697&pid=305&user=RC0709)
+  - [x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+  - [x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+  - [x] [k largest element in an array](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)
+
+**String**
+  - [x] [Reverse a string word by word](ttp://www.geeksforgeeks.org/reverse-words-in-a-given-string/)
+  - [x] [Implement strstr()](http://practice.geeksforgeeks.org/viewSol.php?subId=3935511&pid=700320&user=srashmi032)
+  - [X] [Integer to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
+  - [x] [Length of last word](http://www.geeksforgeeks.org/length-of-last-word-in-a-string/)
+
+**linkedlist**
+  - [x] [Find middle element in a linked list](http://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) [my soln ](http://practice.geeksforgeeks.org/viewSol.php?subId=4099717&pid=700171&user=RC0709)
+  - [x] [n'th node from end of the linked list](http://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099771&pid=700170&user=RC0709)
+  - [x] [Occurence of an integer in a linked list](http://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099870&pid=700019&user=RC0709)
+  - [x] [Remove duplicate from sorted linked list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3939333&pid=700196&user=RC0709) -[my diff soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4128007&pid=700196&user=RC0709)
+  - [x] [Pairwise swap elements of a linked list by swaping data](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3938197&pid=700024&user=RC0709)
+  - [x] [linked list insertion](http://practice.geeksforgeeks.org/problems/linked-list-insertion/1) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3870743&pid=700525&user=RC0709)
+  - [x] [Swap linked list nodes in pairs](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
+  - [x] [Count nodes of linked list](http://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4092471&pid=700039&user=RC0709)
+  - [x] [node at a given index of linked list](http://practice.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099668&pid=700040&user=RC0709)
+  
+ **Tree** 
+  - [x] [Level order traversal](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)- [my sol](http://practice.geeksforgeeks.org/viewSol.php?subId=4141622&pid=700511&user=RC0709)
+  - [x] [k distancefrom root](http://practice.geeksforgeeks.org/problems/k-distance-from-root/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3897678&pid=700154&user=RC0709)
+  - [x] [Lowest common ancestor in binary tree](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4144833&pid=700221&user=RC0709)
+  - [x] [LevelOrderTraversal using queue lib and vector stl in c++](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)
+  - [x] [Level Order traversal lineby line](http://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1)
+  - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4144111&pid=700236&user=RC0709)
+ 
+  
+**Graph**
+  - [x] [Breadth First Search](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+  
+**Greedy**
+  - [x] [Job sequencing](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4172997&pid=443&user=RC0709)
+  
+**Dyanamic Programming**
+  - [x] [Kadane's Algorithm](http://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4019087&pid=106&user=RC0709)
+  - [x] [Longest increasing subsequence ](http://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4029928&pid=134&user=RC0709)
+  - [x] [Edit distance](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178625&pid=164&user=RC0709)
+  - [x] [Longest Common Subsequence](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178986&pid=152&user=RC0709)
+  
+ 
