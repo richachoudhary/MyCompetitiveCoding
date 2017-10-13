@@ -828,5 +828,5 @@
   - [x] [Longest increasing subsequence ](http://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4029928&pid=134&user=RC0709)
   - [x] [Edit distance](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178625&pid=164&user=RC0709)
   - [x] [Longest Common Subsequence](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178986&pid=152&user=RC0709)
-  
+  - [x] [nCr](http://practice.geeksforgeeks.org/problems/ncr/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4181155&pid=168&user=RC0709)
  
