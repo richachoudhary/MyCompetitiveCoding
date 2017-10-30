@@ -818,7 +818,10 @@
  
   
 **Graph**
-  - [x] [Breadth First Search](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+  - [x] [Graph Representation](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
+  - [x] [Breadth First Search](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/)
+  - [x] [Depth First search](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)
+  - [x] [Kruskal's algorithm](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/)
   
 **Greedy**
   - [x] [Job sequencing](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4172997&pid=443&user=RC0709)
